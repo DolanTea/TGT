@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0">
+    <title>TGT</title>
+    <link rel="stylesheet" href="groenestad.css">
+</head>
+
+<!-- elke body heeft een id omdat de tekstvlakken achtergrond een ander design is -->
+
+<body id="index">
+    <header>
+        <img src="images/tgt_logo.png"
+            alt="Logo TGT, geschreven tekenstijl letterlogo, theepot met goude lijnen en subtiele wolkerig achtergrond">
+        <h1>Tea grows Treees</h1>
+    </header>
+    <main>
+
+        <article>
+            <h2>What's the Tea?</h2>
+        </article>
+        <article>
+            <h3>Loose leaf tea</h3>
+        </article>
+
+        <!-- moet ik de section een class/id geven anders pakt het ander sections in css voor background image (in andere html)-->
+        <section>
+            <h2> </h2>
+            <p>Als jij het meest waard voor je geld wilt, kan je beter kiezen voor gedroogd losse theebladeren i.p.v
+                theezakjes.</p>
+            <p>Gedroogd losse theebladeren wordt zo verwerkt dat je de volle smaak & gezondsheidseigenschappen behoudt,
+                doordat ze meer ruimte hebben in heet water kunnen de bladeren zich beter uitzetten waardoor een
+                complexere smaak vrijkomt.</p>
+            <p>In tegenstelling tot theezakjes, wat een mix is van de laagste kwaliteit gebroken theebladeren met een
+                beperkte ruimte om zich uit te zetten. Zo bespaar je het milieu doordat er minder gebruik gemaakt hoeft
+                te worden van verpakkingsmaterialen.</p>
+            <!-- screenreader heeft geen functie voor een background image in html te zetten want je kan het geen alt text geven (heeft geen zin want is opmaak) -->
+        </section>
+
+        <!-- zelfde grootte en breedte afbeelding, zodat je ze kan vervangen, doos thee png -->
+        <div id="slider">
+            <article class="slider_pagina">
+                <h2> </h2>
+                <img src="images/opengescheurd_theezakje.png" alt="opengescheurd theezakje">
+                <img src="images/theeverpakking.png" alt="theeverpakking">
+            </article>
+            <article class="slider_pagina">
+                <h2> </h2>
+                <img src="images/theedoos.png" alt="theedoos">
+                <img src="images/losse_thee.png" alt="losse thee">
+            </article>
+            <article class="slider_pagina">
+                <h2> </h2>
+                <img src="images/doorweekte_thee.png" alt="doorweekte thee">
+                <img src="images/thee.png" alt="jasmijn thee bladeren in water">
+            </article>
+        </div>
+
+        <section id="kintsugi_bg2">
+            <h2> </h2>
+            <p>Thee is ook een vorm van kunst & cultuur voorbereiding. Dankzij vele brouwmethodes kan jij als
+                theeliefhebber deelnemen aan de bereiding van thee als een mindfull ritueel.</p>
+            <p>Oud-traditionele ceremonies waar ik het meer over ga hebben met Moychay. Voorbeelden hiervan zijn de
+                sterkte van je thee bepalen, meer of minder bladeren, de tijd hoe lang wil je dat de thee zich kan
+                uitzetten in het water en wat voor temperatuur.</p>
+            <p>Voor in de zomer: Kōridash (Japan ijsbrouwthee) zoals de naam zegt wordt in de zomer kan je loose
+                theebladeren met ijs laten brouwen wat een zoetere en zachtere smaak profiel geeft. </p>
+        </section>
+
+        <article class="achtergrond">
+            <h2> </h2>
+            <img src="images/teaset.png" alt="Aziatische teaset aan kopjes met theebladeren erin">
+        </article>
+
+
+    </main>
+
+    <!-- li text met icon samen voegen, zodat je het in css kan stylen -->
+    <!-- op de ul een flex zetten, en in de li een flex gebruiken om het onder elkaar te zetten -->
+    <!-- li unstyling geven -->
+    <!-- # is zelfde pagina in href -->
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/leaf_select.png" alt="ingekleurd rose blaadje">
+                        <p>Thee</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="project.html">
+                        <img src="images/outline_tree.png" alt="outlijn van een boom">
+                        <p>Project</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="moychay.html">
+                        <img src="images/outline_teacup.png" alt="outlijn van een teakopje">
+                        <p>Moychay</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
