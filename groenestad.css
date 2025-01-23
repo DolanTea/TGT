@@ -15,9 +15,15 @@
     height: 15em;
 }
 
+
 header img {
     display: flex;
     justify-content: center;
+
+}
+
+.smaller-logo img {
+    left: 5em;
 }
 
 body {
@@ -42,12 +48,15 @@ h1 {
     left: 11em;
 }
 
+.smaller {
+    top: 11.5em;
+}
+
 h2 {
     font-family: "Sansation";
     font-weight: bold;
     font-size: 1.1em;
 }
-
 
 
 h3 {
@@ -140,7 +149,7 @@ footer a {
     justify-content: center;
 }
 
-.footer-teacup{
+.footer-teacup {
     padding-top: 1em;
 }
 
@@ -164,7 +173,7 @@ a,
 #slider h2 {
     position: absolute;
     top: 40.5em;
-    left: 0.8em;
+    left: 2.2em;
     font-family: "Sansation";
     font-weight: bold;
 }
@@ -180,8 +189,6 @@ a,
     width: 100%;
     padding: 1em;
 }
-
-
 
 #project section p {
     font-family: "Playpen Sans";
@@ -268,7 +275,7 @@ a,
 #moychay section p {
     font-family: "Playpen Sans";
     text-align: left;
-    padding: 1em 2.7em 1.5em 1.5em;
+    padding: 1em 3.5em 1.5em 1.5em;
 }
 
 #moychay #hojicha {
@@ -286,10 +293,37 @@ a,
     top: 28em;
 }
 
+#slider2 {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    background-image: url(images/leaves_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slider2 h2 {
+    position: absolute;
+    top: 37em;
+    left: 5.5em;
+    font-family: "Sansation";
+    font-weight: bold;
+}
+
+/* dit is een class wegens het nog de mogelijkheid kon krijgen aan de andere afbeeldingen geven, alleen dit heb ik echter voor gekozen om niet te hebben */
+.slider_pagina2 {
+    display: flex;
+    scroll-snap-align: start;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+}
+
 #teapet img {
     position: absolute;
     left: 18.2em;
-    top: 80em;
+    top: 80.8em;
 }
 
 #moychay #teapet {

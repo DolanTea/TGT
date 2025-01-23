@@ -39,9 +39,11 @@
             <!-- screenreader heeft geen functie voor een background image in html te zetten want je kan het geen alt text geven (heeft geen zin want is opmaak) -->
         </section>
 
-        <!-- zelfde grootte en breedte afbeelding, zodat je ze kan vervangen, doos thee png -->
+        <!-- dit is een div want met een section pakt het de algemene styling van andere sections wat ik niet wil hebben voor deze slider
+        ik wou het een pijltje aan beide kanten geven in het midden voor indicatie dat je naar links en rechts kan swipen ben erachter gekomen dat dit een unicode is 
+        https://www.w3schools.com/charsets/ref_utf_arrows.asp -->
         <div id="slider">
-            <h2>opengescheurd theezakje<--------->losse thee</h2>
+            <h2>opengescheurd theezakje &harr; losse thee</h2>
             <article class="slider_pagina">
                 <h2> </h2>
                 <img src="images/opengescheurd_theezakje.png" alt="opengescheurd theezakje">
@@ -75,8 +77,6 @@
             <h2> </h2>
             <img src="images/teaset.png" alt="Aziatische teaset aan kopjes met theebladeren erin">
         </article>
-
-
     </main>
 
     <!-- li text met icon samen voegen, zodat je het in css kan stylen -->

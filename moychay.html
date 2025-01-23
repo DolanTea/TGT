@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="groenestad.css">
 </head>
 
+<!-- voor een of andere reden heeft deze pagina zo dat in html broswer dat je naar recht kan swipen, dit staat volgens inspecteren vast op het html een class eraan geven en margin 0 doet niks & het registeerd de body margin 0 niet de breedte klopt en ik snap dus niet hoe dit anders kan wss een vaste css style ofz -->
 <!-- elke body heeft een id omdat de tekstvlakken achtergrond een ander design is -->
 
 <body id="moychay">
-    <header>
-        <img src="images/tgt_logo.png"
+    <header class="small-logo">
+        <img src="images/small_tgt_logo.png"
             alt="Logo TGT, geschreven tekenstijl letterlogo, theepot met goude lijnen en subtiele wolkerig achtergrond">
-        <h1>Tea grows Treees</h1>
+        <h1 class="smaller">Tea grows Treees</h1>
     </header>
     <main>
 
@@ -25,9 +26,9 @@
             <h3>Kan je niet mee misgaan!</h3>
         </article>
 
-
         <!-- achtergrond img van 1 vorrm, latte + teapet aan het tekstvak dus een id voor styling -->
         <section id="hojicha">
+            <h2> </h2>
             <img src="images/hojicha_latte.png" alt="hojicha latte met lang wit rietje">
             <p>Met Moychay's theebar kan je allerlei thee mocktails uit proberen van een warme Chai tot citrus Yerba of
                 neem een thee-to-go, keuze uit meer dan 250 diverse theesoorten direct geteeld zonder tussenverkoop!</p>
@@ -37,18 +38,27 @@
             <!-- <img src="images/hojicha_latte.png" alt="Hojicha Latte met een wit rietje"> -->
         </section>
 
-        <article class="achtergrond">
-            <h2> </h2>
-            <img src="images/matcha_latte.png"
-                alt="bruine plaat met 2 matcha lattees, 1 met dango ronde witte bal met stokje">
-        </article>
+        <div id="slider2">
+            <h2>Menukaart &harr; Matcha latte</h2>
+            <article class="slider_pagina2">
+                <h2> </h2>
+                <img src="images/menu_moychay.png"
+                    alt="menukaart moychay bovenaan tea cocktails middelste matcha dranken onderste koffie en thee to go">
+            </article>
+            <article class="slider_pagina2">
+                <h2> </h2>
+                <img src="images/matcha_latte.png"
+                    alt="bruine plaat met 2 matcha lattees, 1 met dango ronde witte bal met stokje">
+            </article>
+        </div>
 
         <!-- achtergrond img van 1 vorrm, latte + teapet aan het tekstvak dus een id voor styling -->
         <section id="teapet">
             <img src="images/teapet.png" alt="teapet beertje met koptelefoon poseert naar links">
             <p>Zelf had ik in het verleden een traditionele thee ceremonie bijgewoont 'Unguided Pin Cha' vertaling uit
                 het manderijns betekent thee proeven.</p>
-            <p>Very demure & mindfull is een kort en krachtige omschrijving die ik kan geven van de methode, je giet ten eerst over een leuke
+            <p>Very demure & mindfull is een kort en krachtige omschrijving die ik kan geven van de methode, je giet ten
+                eerst over een leuke
                 thee dier (wat in de moderne tijd van alles kan zijn van oorsprong uit de Chinese thee cultuur, gemaakt
                 van klei, ongeglazuurd met een ruw oppervlak)</p>
             <!-- <img src="images/teapet.png" alt="teapet beertje met koptelefoon poseert schuin naar links"> -->
@@ -75,7 +85,7 @@
                 <li>
                     <a href="project.html">
                         <img src="images/outline_tree.png" alt="outlijn van een boom">
-                        <p>Tea Forest Project</p>
+                        <p>Project</p>
                     </a>
                 </li>
                 <li class="footer-teacup">
